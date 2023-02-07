@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 180, 180);
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-gap: 10px;
+    background-color: pink;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    width: 400px;
+    border: 10px solid;
+    border-color:violet;
+    border-radius: 25px;
+}
+
+label {
+    grid-column: 1 / 2;
+    text-align: right;
+}
+
+input {
+    grid-column: 2/3;
+}
+
+
+#form {
+    text-align: center;
+}
+
+#intro{
+    text-align: center;
+
+}
